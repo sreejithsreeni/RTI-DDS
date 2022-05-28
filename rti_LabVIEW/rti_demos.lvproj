@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="read_Shapes.vi" Type="VI" URL="../read_Shapes.vi"/>
+		<Item Name="read_string-2.vi" Type="VI" URL="../read_string-2.vi"/>
 		<Item Name="read_string.vi" Type="VI" URL="../read_string.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
