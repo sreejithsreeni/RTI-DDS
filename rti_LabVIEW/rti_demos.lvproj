@@ -10,13 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="read_Shapes.vi" Type="VI" URL="../read_Shapes.vi"/>
-		<Item Name="read_string-2.vi" Type="VI" URL="../read_string-2.vi"/>
-		<Item Name="read_string.vi" Type="VI" URL="../read_string.vi"/>
-		<Item Name="write bool.vi" Type="VI" URL="../write bool.vi"/>
-		<Item Name="write int32.vi" Type="VI" URL="../write int32.vi"/>
-		<Item Name="write string.vi" Type="VI" URL="../write string.vi"/>
-		<Item Name="write_dbl.vi" Type="VI" URL="../write_dbl.vi"/>
+		<Item Name="Basic" Type="Folder" URL="../Basic">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -57,10 +53,10 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="RTI Connext DDS Assert Color.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/RTI DDS Toolkit/ShapesDemo/support/RTI Connext DDS Assert Color.vi"/>
-			<Item Name="RTI Connext DDS Shape Type Create Advanced Reader.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/RTI DDS Toolkit/ShapesDemo/support/RTI Connext DDS Shape Type Create Advanced Reader.vi"/>
-			<Item Name="RTI Connext DDS Shape Type Read.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/RTI DDS Toolkit/ShapesDemo/support/RTI Connext DDS Shape Type Read.vi"/>
-			<Item Name="RTI Connext DDS Shape Type.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/RTI DDS Toolkit/ShapesDemo/support/RTI Connext DDS Shape Type.ctl"/>
+			<Item Name="RTI Connext DDS Assert Color.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/RTI DDS Toolkit/ShapesDemo/support/RTI Connext DDS Assert Color.vi"/>
+			<Item Name="RTI Connext DDS Shape Type Create Advanced Reader.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/RTI DDS Toolkit/ShapesDemo/support/RTI Connext DDS Shape Type Create Advanced Reader.vi"/>
+			<Item Name="RTI Connext DDS Shape Type Read.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/RTI DDS Toolkit/ShapesDemo/support/RTI Connext DDS Shape Type Read.vi"/>
+			<Item Name="RTI Connext DDS Shape Type.ctl" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/RTI DDS Toolkit/ShapesDemo/support/RTI Connext DDS Shape Type.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
